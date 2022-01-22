@@ -9,7 +9,7 @@ namespace ExceptionHandlingExercise
         static void Main(string[] args)
         {
             // -----------------------------------------------------------------------------
-            // First create an char[], it must contain 6 numbers and 3 letters - name it arr
+            // First create an char[],  it must contain 6 numbers and 3 letters - name it arr
             // Create a list called numbers that will hold integers
             // Create an string variable with an empty string initializer - name it str
 
