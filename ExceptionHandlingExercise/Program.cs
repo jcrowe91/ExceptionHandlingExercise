@@ -10,10 +10,18 @@ namespace ExceptionHandlingExercise
         {
             // -----------------------------------------------------------------------------
             // First create an char[],  it must contain 6 numbers and 3 letters - name it arr
+            char[] arr = { '1', '2', '3', '4', '5', '6', 'a', 'b', 'c'  };
             // Create a list called numbers that will hold integers
+            var numbers = new List<int>();
             // Create an string variable with an empty string initializer - name it str
+            string str = "";
 
             // using a foreach loop, attempt to parse the elements in your char[] with int.Parse()
+            foreach (var num in arr)
+            {
+                int.Parse(num);
+                Console.WriteLine();
+            }
             // and Exceptions will be thrown 
             // Below we will set this up 
             // ------------------------------------------------------------------------------
