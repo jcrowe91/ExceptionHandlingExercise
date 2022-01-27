@@ -25,8 +25,6 @@ namespace ExceptionHandlingExercise
             // Below we will set this up 
             // ------------------------------------------------------------------------------
 
-
-
             //TODO START HERE:
 
             // Make a foreach loop to iterate through your character array
@@ -64,11 +62,7 @@ namespace ExceptionHandlingExercise
             foreach (var num in numbers)
             {
                 Console.WriteLine(num);
-            }
-
-           
-
-
+            }       
 
         }
     }
